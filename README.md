@@ -1,8 +1,8 @@
-# 📌 Sprint 12 — Open Data BCN (CKAN API)
+# 📌 Sprint 12 — APIs REST
 
 ## Description
 
-This repository contains the practical exercises developed for **Sprint 12 – Open Data APIs**, focused on consuming public REST APIs to retrieve, explore and store real open data from the Barcelona City Council.
+This repository contains the practical exercises developed for **Sprint 12 – Open Data APIs**, focused on consuming public REST APIs to retrieve, explore and store real open data from public sources.
 
 The project covers the complete data extraction workflow:
 * Connection to the **Open Data BCN CKAN API**
@@ -52,35 +52,11 @@ The dataset used corresponds to **air transit data (Flightradar)** published by 
 
 ---
 
-## Exercises Overview
-
-### Level 1 — Dataset Discovery
-Retrieve the full list of available datasets from the Open Data BCN portal using `package_list`.
-* Explore dataset names and titles
-* Identify datasets of interest using keyword filtering
-
-### Level 2 — Keyword Search
-Use `package_search` to filter datasets by topic.
-* Search with keywords such as `"transit aeri"`
-* Display dataset names, titles and number of available resources
-
-### Level 3 — Data Extraction and Export
-Select a dataset with CSV or JSON resources and extract data via the API.
-* Use `package_show` to inspect dataset resources
-* Select a valid `resource_id` from a CSV or JSON resource
-* Retrieve at least 100 records with `datastore_search`
-* Convert results into a Pandas DataFrame
-* Save the DataFrame to a `.csv` file
-
----
-
 ## Technologies Used
 
 * Python 3
 * Pandas
 * Requests
-* Jupyter Notebook
-* Open Data BCN — CKAN API
 
 ---
 
@@ -92,21 +68,6 @@ Select a dataset with CSV or JSON resources and extract data via the API.
 * Data wrangling with Pandas
 * Exploratory data analysis (EDA)
 * CSV export
-
----
-
-## API Reference
-
-Base URL: `https://opendata-ajuntament.barcelona.cat/data/api/3/action/`
-
-| Endpoint | Description |
-|---|---|
-| `package_list` | Full list of dataset names |
-| `package_search?q=keyword` | Search datasets by keyword |
-| `package_show?id=name` | Details and resources of a dataset |
-| `datastore_search` | Query tabular data by resource ID |
-
-More info: https://opendata-ajuntament.barcelona.cat/ca/desenvolupadors#APIS
 
 ---
 
