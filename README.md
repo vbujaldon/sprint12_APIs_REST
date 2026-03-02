@@ -5,12 +5,10 @@
 This repository contains the practical exercises developed for **Sprint 12 – Open Data APIs**, focused on consuming public REST APIs to retrieve, explore and store real open data from public sources.
 
 The project covers the complete data extraction workflow:
-* Connection to the **Open Data BCN CKAN API**
+* Connection
 * Dataset discovery and search using API endpoints
 * Data extraction and transformation with **Pandas**
 * Export of results to CSV for further analysis
-
-The dataset used corresponds to **air transit data (Flightradar)** published by the Barcelona City Council.
 
 ---
 
@@ -25,8 +23,6 @@ The dataset used corresponds to **air transit data (Flightradar)** published by 
 * Identify and use different types of public APIs, understanding their characteristics, structure and documentation to perform effective queries.
 * Practice the use of HTTP methods and status code handling, recognising server responses and applying the appropriate method depending on the desired operation.
 * Transform data obtained from an API into structured formats such as Pandas DataFrames, and save them to facilitate further analysis or integration with other tools.
-
----
 
 ---
 
