@@ -16,21 +16,15 @@ The dataset used corresponds to **air transit data (Flightradar)** published by 
 
 ## 📌 General Objectives
 
-* Understand how REST APIs work and how to consume them with Python.
-* Navigate a public data portal programmatically using API endpoints.
-* Extract, filter and structure data returned in JSON format.
-* Build a basic data pipeline from API call to CSV file.
+* Apply foundational knowledge of REST APIs to query, manipulate and store data using HTTP requests, interpreting status codes and transforming the retrieved information for further analysis.
 
 ---
 
 ## Specific Objectives
 
-* Use `package_list` to retrieve the full catalogue of available datasets.
-* Apply `package_search` to filter datasets by keyword.
-* Use `package_show` to inspect dataset resources and identify valid formats.
-* Query tabular data with `datastore_search`.
-* Convert JSON responses into a Pandas DataFrame.
-* Export the resulting dataset to a `.csv` file.
+* Identify and use different types of public APIs, understanding their characteristics, structure and documentation to perform effective queries.
+* Practice the use of HTTP methods and status code handling, recognising server responses and applying the appropriate method depending on the desired operation.
+* Transform data obtained from an API into structured formats such as Pandas DataFrames, and save them to facilitate further analysis or integration with other tools.
 
 ---
 
